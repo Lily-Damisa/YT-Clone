@@ -1,0 +1,17 @@
+.sidebar {
+    flex: 0.2;
+    font-size: 20px;
+
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5{
+    color: gray;
+}
