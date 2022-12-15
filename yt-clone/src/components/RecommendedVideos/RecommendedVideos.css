@@ -1,20 +1,30 @@
 .recommendedvideos {
     flex: 0.8;
     background-color: #f9f9f9;
-    padding: 40px 20px;
+    padding: 6px 20px;
     padding-bottom: 0;
 }
 
-.recommendedVideos > h2 {
-    margin-left: 5px;
-    margin-bottom: 20px;
+span.title{
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 700;
 }
 
-.recommendedvideos__videos {
-    display: flex;
-    flex-wrap: wrap;
+.channel{
+    font-size: 13px;
 }
 
-.recommendedvideos__videos > * {
-    margin-left: 5%;
+.timestamp{
+    font-size: 13px;
+}
+
+
+.the_videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    /* display: flex;
+    flex-direction: row; */
 }

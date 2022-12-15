@@ -19,8 +19,7 @@ function Header() {
                 className='youtube-logo'
                 src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg"
                 alt='Youtube'
-                width= '50px'
-                height= '100px'
+                
                 />
             </Link>
         </div>

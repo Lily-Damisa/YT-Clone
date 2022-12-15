@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home/Home';
 import Header from './components/Header/Header';
-import SideBar from './components/SideBar/SideBar';
-import RecommendedVideos from './components/RecommendedVideos/RecommendedVideos';
+import SingleVideoPage from './pages/SingleVideoPage/SingleVideoPage';
 
 
 function App() {
@@ -38,12 +38,14 @@ function App() {
   return (
     
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter >
       {width <= 792 && !isCollapsed ? <div className='overlay'></div> : null}
         <Header width={width} handleToggler={handleToggler} />
-        <Routes className='main'>
-          <Route path='/' element={<SideBar width={width} handleToggler={handleToggler} isCollapsed={isCollapsed} />} />
-          <Route path='/' element={<RecommendedVideos />} />
+
+
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="singlevideopage" element={<SingleVideoPage />}/>
 
         </Routes>
       </BrowserRouter>

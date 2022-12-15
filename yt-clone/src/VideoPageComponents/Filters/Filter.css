@@ -1,0 +1,31 @@
+.filter{
+    display: flex;
+    flex: .8;
+    gap: 13px;
+    align-items: center;
+    margin: 10px 0px 20px 0px;
+}
+
+span.filter-items{
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: 1px solid #9e9e9e5c;
+    cursor: pointer;
+}
+
+span.filter-items.active{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+span.filter-items:hover{
+    background-color: gray;
+    color: black;
+    
+}
+
+.arrow_right{
+    font-size: 18px !important;
+}

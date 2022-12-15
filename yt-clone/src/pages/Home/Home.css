@@ -1,0 +1,14 @@
+.sidebar{
+    width: 20%;
+    margin: 0;
+  }
+  
+  .videos{
+    width: 80%;
+  }
+
+  .main{
+    display: flex;
+    gap: 30px;
+  }
+  

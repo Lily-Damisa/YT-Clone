@@ -1,0 +1,34 @@
+.img_div img{
+    width: 180px;
+    height: 100px;
+}
+
+.img_div{
+    position: relative;
+
+}
+
+.durationn{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    top: 81px;
+    left: 143px;
+}
+
+.row:hover{
+    background-color: lightgray;
+}
+
+.row{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.row p{
+    font-size: 14px;
+    line-height: 15px;
+}

@@ -1,0 +1,66 @@
+.video_page{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+.left_page img{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionss{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.optionss div{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.second-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cta1{
+    color: blue;
+    border: 1px solid blue;
+    padding: 8px 16px;
+    background-color: white;
+}
+
+.cta2{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 8px 16px;
+}
+
+.ctas{
+    display: flex;
+    gap: 15px;
+}
+
+.profile_img{
+    font-size: 40px !important;
+}
+
+.tick{
+    font-size: 15px !important;
+    color: gray;
+}
